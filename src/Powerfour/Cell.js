@@ -13,17 +13,35 @@ const cellStyle = (cellType) => ({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  width: '8.1vw',
-  height: '8.1vw',
+  width: '7.9vw',
+  height: '7.9vw',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
-  margin: '.32vw .65vw',
+  maxWidth: 52.13,
+  maxHeight: 52.13,
   // opacity: '.8',
   backgroundImage: getCellBackground(cellType),
 })
 
+const horizontalSpacer = {
+  height: '.75vw',
+  maxHeight: 4.98,
+}
+
+const verticalSpacer = {
+  width: '.75vw',
+  maxWidth: 4.98,
+}
+
 const Cell = ({ cell }) => (
-  <div style={cellStyle(cell)}></div>
+  <div>
+    <div style={horizontalSpacer}></div>
+    <div style={{ display: 'flex' }}>
+      <div style={verticalSpacer}></div>
+      <div style={cellStyle(cell)}></div>
+      <div style={verticalSpacer}></div>
+    </div>
+  </div>
 )
 
 export default Cell

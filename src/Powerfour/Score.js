@@ -9,6 +9,8 @@ const scoreStyle = {
   justifyContent: 'space-around',
   padding: '0px 20px',
   margin: 'auto',
+  maxWidth: 514,
+  maxHeight: 200,
 }
 
 const playerStyle = {
@@ -17,6 +19,8 @@ const playerStyle = {
   borderRadius: 5,
   height: 'calc(20vw - 20px)',
   margin: 10,
+  maxWidth: 160,
+  maxHeight: 160,
 }
 
 const player1Style = {

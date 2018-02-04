@@ -6,6 +6,8 @@ const gridStyle = {
   height: '60vw',
   margin: 'auto',
   width: '91vw',
+  maxWidth: '600px',
+  maxHeight: '400px',
   backgroundSize: 'cover',
   backgroundImage: 'url(http://nsa39.casimages.com/img/2018/02/03/180203113743268794.png)',
   justifyContent: 'center',
