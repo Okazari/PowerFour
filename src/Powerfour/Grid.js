@@ -12,7 +12,7 @@ const gridStyle = {
 
 const message = {
   position: 'absolute',
-  top: 140,
+  top: 265,
   color: 'white',
   backgroundColor: 'rgba(0,0,0,0.7)',
   borderRadius: 50,
