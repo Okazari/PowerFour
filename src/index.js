@@ -5,13 +5,16 @@ import Powerfour from './Powerfour';
 const styles = {
   fontFamily: 'sans-serif',
   textAlign: 'center',
-  backgroundColor: 'steelblue',
+  backgroundColor: 'lightgrey',
+  minHeight: '100vh',
 };
 
 
 
 const App = () => (
-  <Powerfour style={styles} w={7} h={6} />
+  <div style={styles}>
+    <Powerfour  w={7} h={6} />
+  </div>
 );
 
 render(<App />, document.getElementById('root'));

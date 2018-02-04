@@ -10,6 +10,14 @@ const boardStyle = {
   alignItems: 'center',
 }
 
+const logo = {
+  backgroundImage: 'url(http://nsa39.casimages.com/img/2018/02/03/180203104237330189.png)',
+  backgroundSize: 'cover',
+  width: '270px',
+  height: '100px',
+  margin: '10px',
+}
+
 const restartStyle = {
   backgroundImage: 'url(http://nsa39.casimages.com/img/2018/02/03/180203113555740267.png)',
   backgroundSize: 'cover',
@@ -39,7 +47,7 @@ class Powerfour extends React.Component {
   onColumnClick (column) {
     const { grid, turn, victory, score } = this.state
     const hitInfo = Utils.addCupcake(grid, column, turn)
-    
+
     !victory && this.setState({
       grid: hitInfo.newGrid,
       victory: hitInfo.victory,
@@ -73,6 +81,7 @@ class Powerfour extends React.Component {
     const { grid, victory, score } = this.state
     return (
       <div style={boardStyle}>
+       <div style={logo}></div>
        <Grid
          victory={victory}
          grid={grid}
