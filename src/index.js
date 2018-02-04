@@ -7,6 +7,7 @@ const styles = {
   textAlign: 'center',
   backgroundColor: 'lightgrey',
   minHeight: '100vh',
+  width: '100%',
 };
 
 

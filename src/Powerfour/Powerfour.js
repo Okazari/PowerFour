@@ -6,8 +6,6 @@ import Score from './Score'
 const boardStyle = {
   display: 'flex',
   flexDirection: 'column',
-  justifyContent: 'center',
-  alignItems: 'center',
 }
 
 const logo = {
@@ -15,7 +13,7 @@ const logo = {
   backgroundSize: 'cover',
   width: '270px',
   height: '100px',
-  margin: '10px',
+  margin: '20px auto',
 }
 
 const restartStyle = {
@@ -23,7 +21,7 @@ const restartStyle = {
   backgroundSize: 'cover',
   width: '140px',
   height: '37px',
-  margin: '10px',
+  margin: '10px auto',
   backgroundColor: 'transparent',
   cursor: 'pointer',
   border: 'none',
@@ -76,6 +74,7 @@ class Powerfour extends React.Component {
       victory: false,
     })
   }
+
 
   render () {
     const { grid, victory, score } = this.state

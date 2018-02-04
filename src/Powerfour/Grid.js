@@ -3,8 +3,9 @@ import Column from './Column'
 
 const gridStyle = {
   display: 'flex',
-  height: '400px',
-  width: '600px',
+  height: '60vw',
+  margin: 'auto',
+  width: '91vw',
   backgroundSize: 'cover',
   backgroundImage: 'url(http://nsa39.casimages.com/img/2018/02/03/180203113743268794.png)',
   justifyContent: 'center',
@@ -12,7 +13,7 @@ const gridStyle = {
 
 const message = {
   position: 'absolute',
-  top: 265,
+  top: 235,
   color: 'white',
   backgroundColor: 'rgba(0,0,0,0.7)',
   borderRadius: 50,
@@ -26,10 +27,10 @@ const Grid = ({ grid, victory, onColumnClick, onColumnMouseEnter, onColumnMouseL
     {
       grid.map((column, index) => (
         <Column
-          onColumnClick={onColumnClick}
-          index={index}
-          key={index}
-          column={column}
+        onColumnClick={onColumnClick}
+        index={index}
+        key={index}
+        column={column}
         />
       ))
     }

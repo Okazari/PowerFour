@@ -9,9 +9,9 @@ const columnStyle = {
 
 
 const Column = ({ column, index, onColumnClick, onColumnMouseEnter, onColumnMouseLeave }) => (
-  <div 
-    onClick={() => onColumnClick(index)} 
-    style={columnStyle} 
+  <div
+    onClick={() => onColumnClick(index)}
+    style={columnStyle}
     key={index}
   >
     {

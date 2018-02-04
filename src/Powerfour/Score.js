@@ -2,20 +2,21 @@ import React from 'react'
 
 const scoreStyle = {
   backgroundImage: 'url(http://nsa39.casimages.com/img/2018/02/03/180203113555794126.png)',
-  width: 540,
-  height: 200,
+  width: 'calc(100% - 60px)',
   backgroundSize: 'cover',
   display: 'flex',
   alignItems: 'center',
-  justifyContent: 'space-between',
+  justifyContent: 'space-around',
   padding: '0px 20px',
+  margin: 'auto',
 }
 
 const playerStyle = {
   backgroundSize: 'cover',
-  width: 150,
+  width: 'calc(20vw - 20px)',
   borderRadius: 5,
-  height: 150,
+  height: 'calc(20vw - 20px)',
+  margin: 10,
 }
 
 const player1Style = {
@@ -30,19 +31,21 @@ const player2Style = {
 
 const playerScoreStyle = {
   backgroundColor: 'black',
-  height: 100,
-  width: 50,
+  height: 70,
+  padding: '0 10px',
   borderRadius: 20,
   color: 'white',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  fontSize: 70,
+  fontSize: 50,
+  margin: '10px 0',
 }
 
 const vsStyle = {
   color: 'white',
-  fontSize: 35,
+  fontSize: 30,
+  margin: 10,
   transform: 'rotate(-20deg)',
 }
 
