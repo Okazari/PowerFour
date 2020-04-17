@@ -7,8 +7,8 @@ What the heck is this name ?
 ---
 
 I started to write this little app flowing my stream chat suggestions.
-I didn't now the actual name of this type of game is "Connect 4" so i named it translating word to word from french.
-That's where PowerFour come from.
+I didn't know the actual name of this type of game is "Connect 4" so i named it translating word to word from french.
+That's where PowerFour comes from.
 
 What about the cupcakes ?
 ---
